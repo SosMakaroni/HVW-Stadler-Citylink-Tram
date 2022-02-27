@@ -1,0 +1,206 @@
+// --------------------------------------------------------------------------------Citylink
+
+// ss=spriteset, sg=spritegroup, sw=switch
+// tmpl_1(szin,csuklo,rakodas,poziciok)
+// tmpl_depo(szin,csuklo)
+
+spriteset(ss_Citylink_purchase, "src/CityLinka1_depo.png")		{tmpl_purchase()}
+//--------------A
+spriteset(ss_Citylink_1_a_depo, "src/CityLinka1_depo.png")		{tmpl_depo()}
+spriteset(ss_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss2_Citylink_1_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_2_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_3_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka3_2x_8bpp.png") {tmpl_1(2)}
+spriteset(ss4_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss4_Citylink_1_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_2_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_3_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_1_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_2_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_3_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka3_4x_8bpp.png") {tmpl_1(4)}
+
+spritegroup sg1_Citylink_1_a {	loaded:  [ss_Citylink_1_a];	loading: [ss_Citylink_1_a];}
+spritegroup sg1_Citylink_2_a {	loaded:  [ss_Citylink_2_a];	loading: [ss_Citylink_2_a];}
+spritegroup sg1_Citylink_3_a {	loaded:  [ss_Citylink_3_a];	loading: [ss_Citylink_3_a];}
+spritegroup sg2_Citylink_1_a {	loaded:  [ss2_Citylink_1_a];	loading: [ss2_Citylink_1_a];}
+spritegroup sg2_Citylink_2_a {	loaded:  [ss2_Citylink_2_a];	loading: [ss2_Citylink_2_a];}
+spritegroup sg2_Citylink_3_a {	loaded:  [ss2_Citylink_3_a];	loading: [ss2_Citylink_3_a];}
+spritegroup sg4_Citylink_1_a {	loaded:  [ss4_Citylink_1_a];	loading: [ss4_Citylink_1_a];}
+spritegroup sg4_Citylink_2_a {	loaded:  [ss4_Citylink_2_a];	loading: [ss4_Citylink_2_a];}
+spritegroup sg4_Citylink_3_a {	loaded:  [ss4_Citylink_3_a];	loading: [ss4_Citylink_3_a];}
+//--------------A end
+//--------------B
+spriteset(ss_Citylink_1_b_depo, "src/CityLinkb1_depo.png")		{tmpl_depo()}
+spriteset(ss_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss2_Citylink_1_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_2_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_3_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb3_2x_8bpp.png") {tmpl_1(2)}
+spriteset(ss4_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss4_Citylink_1_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_2_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_3_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_1_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_2_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_3_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb3_4x_8bpp.png") {tmpl_1(4)}
+
+spritegroup sg1_Citylink_1_b {	loaded:  [ss_Citylink_1_b];	loading: [ss_Citylink_1_b];}
+spritegroup sg1_Citylink_2_b {	loaded:  [ss_Citylink_2_b];	loading: [ss_Citylink_2_b];}
+spritegroup sg1_Citylink_3_b {	loaded:  [ss_Citylink_3_b];	loading: [ss_Citylink_3_b];}
+spritegroup sg2_Citylink_1_b {	loaded:  [ss2_Citylink_1_b];	loading: [ss2_Citylink_1_b];}
+spritegroup sg2_Citylink_2_b {	loaded:  [ss2_Citylink_2_b];	loading: [ss2_Citylink_2_b];}
+spritegroup sg2_Citylink_3_b {	loaded:  [ss2_Citylink_3_b];	loading: [ss2_Citylink_3_b];}
+spritegroup sg4_Citylink_1_b {	loaded:  [ss4_Citylink_1_b];	loading: [ss4_Citylink_1_b];}
+spritegroup sg4_Citylink_2_b {	loaded:  [ss4_Citylink_2_b];	loading: [ss4_Citylink_2_b];}
+spritegroup sg4_Citylink_3_b {	loaded:  [ss4_Citylink_3_b];	loading: [ss4_Citylink_3_b];}
+//--------------B end
+
+//--------------A
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_a, param_zoom) {
+	1: sg2_Citylink_1_a;
+	2: sg4_Citylink_1_a;
+	sg1_Citylink_1_a;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_a, param_zoom) {
+	1: sg2_Citylink_2_a;
+	2: sg4_Citylink_2_a;
+	sg1_Citylink_2_a;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_a, param_zoom) {
+	1: sg2_Citylink_3_a;
+	2: sg4_Citylink_3_a;
+	sg1_Citylink_3_a;
+}
+
+switch (FEAT_ROADVEHS, SELF, ss_Citylink_a_depo, position_in_consist ) {
+    1..5: ss_toldat;
+    ss_Citylink_1_a_depo;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_a, position_in_consist ) {
+    1: ss_toldat;
+	2: sg_Citylink_2_a;
+	3: ss_toldat;
+	4: sg_Citylink_3_a;
+	5: ss_toldat;
+    sg_Citylink_1_a;
+}
+switch(FEAT_ROADVEHS, SELF, sw_Citylink_a_ss, (extra_callback_info1 & 0x12)) {
+   0x10..0x12: ss_Citylink_a_depo; // 0x10 Depot GUI, 0x11 Vehicle Details/Refit GUI, 0x12 Vehicle List
+   0x00: sw_Citylink_a; // 0x00 Vehicle in game
+}
+//--------------A end
+//--------------B
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_b, param_zoom) {
+	1: sg2_Citylink_1_b;
+	2: sg4_Citylink_1_b;
+	sg1_Citylink_1_b;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_b, param_zoom) {
+	1: sg2_Citylink_2_b;
+	2: sg4_Citylink_2_b;
+	sg1_Citylink_2_b;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_b, param_zoom) {
+	1: sg2_Citylink_3_b;
+	2: sg4_Citylink_3_b;
+	sg1_Citylink_3_b;
+}
+
+switch (FEAT_ROADVEHS, SELF, ss_Citylink_b_depo, position_in_consist ) {
+    1..5: ss_toldat;
+    ss_Citylink_1_b_depo;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_b, position_in_consist ) {
+    1: ss_toldat;
+	2: sg_Citylink_2_b;
+	3: ss_toldat;
+	4: sg_Citylink_3_b;
+	5: ss_toldat;
+    sg_Citylink_1_b;
+}
+switch(FEAT_ROADVEHS, SELF, sw_Citylink_b_ss, (extra_callback_info1 & 0x12)) {
+   0x10..0x12: ss_Citylink_b_depo; // 0x10 Depot GUI, 0x11 Vehicle Details/Refit GUI, 0x12 Vehicle List
+   0x00: sw_Citylink_b; // 0x00 Vehicle in game
+}
+//--------------B end
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_ss, cargo_subtype) {
+	0: sw_Citylink_a_ss;
+	1: sw_Citylink_b_ss;	
+	CB_RESULT_NO_TEXT;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_articulated, extra_callback_info1) {
+    0..5: item_Citylink;
+    CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_capacity, position_in_consist) {
+	1: return 0;
+	2: return 72;
+	3: return 0;
+	4: return 72;	
+	5: return 0;
+	return 72;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_length, position_in_consist) {
+	1: return 4;
+	2: return 8;
+	3: return 2;
+	4: return 4;
+	5: return 8;
+    return 8;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_livery_text, cargo_subtype) {
+	0: return string(STR_COLOUR_SCHEME_SZEGED);
+	1: return string(STR_COLOUR_SCHEME_CHEMNITZ);	
+	CB_RESULT_NO_TEXT;
+}
+
+
+item(FEAT_ROADVEHS, item_Citylink) {
+	property {
+        name:								string(STR_Citylink_NAME);
+        climates_available:				bitmask(CLIMATE_TEMPERATE, CLIMATE_ARCTIC, CLIMATE_TROPICAL);
+        introduction_date:				date(2021,01,01);
+        model_life:						25;
+        vehicle_life:						40;
+        reliability_decay:				10;
+        refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:	bitmask(CC_PIECE_GOODS, CC_EXPRESS, CC_REFRIGERATED);
+        loading_speed:					20;
+        cost_factor:						100;
+        running_cost_factor:				100;
+        sprite_id:							SPRITE_ID_NEW_ROADVEH;
+        speed:								100 km/h;
+        misc_flags:						bitmask(ROADVEH_FLAG_2CC, ROADVEH_FLAG_TRAM);
+        refit_cost:						0;
+        running_cost_base:				RUNNING_COST_ROADVEH;
+        power:								580 kW;
+        weight:							58 ton;
+        cargo_capacity:					216;
+		cargo_age_period:					20;
+        sound_effect:						SOUND_ELECTRIC_SPARK;
+    }
+    graphics {
+		default:                 		sw_Citylink_ss;
+		purchase:						ss_Citylink_purchase;
+		articulated_part:        		sw_Citylink_articulated;
+		length:                  		sw_Citylink_length;
+		cargo_subtype_text: 			sw_Citylink_livery_text;
+		cargo_capacity: 				sw_Citylink_capacity;
+		purchase_cargo_capacity:		return 216 / 3;
+		additional_text: 				string(STR_Citylink_ADAT);
+    }
+}
+// --------------------------------------------------------------------------------Citylink End

@@ -1,0 +1,29 @@
+﻿##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions	
+STR_GRF_NAME	:HVW Stadler Citylink Tram
+STR_GRF_DESC	:{}{LTBLUE}Stadler Citylink Tram edition{}{BLACK}Last update:{WHITE} 2022.02.27 {}{BLACK}Code and model:{GREEN}SosMakaroni{} {COPYRIGHT}2022 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Stadler Citylink Tram edition.
+
+STR_PARAM_ZOOM_NAME	:Max in-zoom level
+STR_PARAM_ZOOM_DESC	:For players who want to choose the non-maximum magnification.
+STR_PARAM_ZOOM_1	:1x {SILVER} Game default{BLACK}
+STR_PARAM_ZOOM_2	:2x
+STR_PARAM_ZOOM_4	:4x {SILVER} By default{BLACK}
+STR_PARAM_BUY_NAME	:Purchase cost {RED} Not work{BLACK}
+STR_PARAM_BUY_DESC	:For players who want to choose the purchase cost.
+STR_PARAM_MAINTENANCE_NAME	:Maintenance costs {RED} Not work{BLACK}
+STR_PARAM_MAINTENANCE_DESC	:For players who want to choose the cost of maintenance.
+STR_PARAM_GAME_VERY_EASY	:/4
+STR_PARAM_GAME_EASY	:/2
+STR_PARAM_GAME_NORMAL	:1 {SILVER} By default{BLACK}
+STR_PARAM_GAME_HARD	:x2
+STR_PARAM_GAME_VERY_HARD	:x4
+
+STR_Citylink_NAME	:Stadler Citylink
+STR_Citylink_ADAT	:{GOLD}----------{BLACK}{}CITYLINK {GOLD}is a clever design of tram which can be configured as an urban tram or as an inter-city train.{}The barrier-free {BLACK}CITYLINK{GOLD} type tram has a low-floor design throughout.{BLACK}{}
+
+STR_COLOUR_SCHEME_SZEGED	: - Szeged Scheme
+STR_COLOUR_SCHEME_CHEMNITZ	: - Chemnitz Scheme
+STR_COLOUR_SCHEME_3	: - Color Scheme 3
+STR_COLOUR_SCHEME_4	: - Color Scheme 4
