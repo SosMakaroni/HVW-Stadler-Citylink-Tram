@@ -175,6 +175,37 @@ spritegroup sg4_Citylink_1_b {	loaded:  [ss4_Citylink_1_b];	loading: [ss4_Cityli
 spritegroup sg4_Citylink_2_b {	loaded:  [ss4_Citylink_2_b];	loading: [ss4_Citylink_2_b];}
 spritegroup sg4_Citylink_3_b {	loaded:  [ss4_Citylink_3_b];	loading: [ss4_Citylink_3_b];}
 //--------------B end
+//--------------C
+spriteset(ss_Citylink_1_c_depo, "src/CityLinkc1_depo.png")		{tmpl_depo()}
+spriteset(ss_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss2_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss2_Citylink_1_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_2_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss2_Citylink_3_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc3_2x_8bpp.png") {tmpl_1(2)}
+spriteset(ss4_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
+spriteset(ss4_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
+alternative_sprites(ss4_Citylink_1_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_2_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_3_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss4_Citylink_1_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_2_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss4_Citylink_3_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc3_4x_8bpp.png") {tmpl_1(4)}
+
+spritegroup sg1_Citylink_1_c {	loaded:  [ss_Citylink_1_c];	loading: [ss_Citylink_1_c];}
+spritegroup sg1_Citylink_2_c {	loaded:  [ss_Citylink_2_c];	loading: [ss_Citylink_2_c];}
+spritegroup sg1_Citylink_3_c {	loaded:  [ss_Citylink_3_c];	loading: [ss_Citylink_3_c];}
+spritegroup sg2_Citylink_1_c {	loaded:  [ss2_Citylink_1_c];	loading: [ss2_Citylink_1_c];}
+spritegroup sg2_Citylink_2_c {	loaded:  [ss2_Citylink_2_c];	loading: [ss2_Citylink_2_c];}
+spritegroup sg2_Citylink_3_c {	loaded:  [ss2_Citylink_3_c];	loading: [ss2_Citylink_3_c];}
+spritegroup sg4_Citylink_1_c {	loaded:  [ss4_Citylink_1_c];	loading: [ss4_Citylink_1_c];}
+spritegroup sg4_Citylink_2_c {	loaded:  [ss4_Citylink_2_c];	loading: [ss4_Citylink_2_c];}
+spritegroup sg4_Citylink_3_c {	loaded:  [ss4_Citylink_3_c];	loading: [ss4_Citylink_3_c];}
+//--------------C end
 
 //--------------A
 switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_a, param_zoom) {
@@ -244,9 +275,44 @@ switch(FEAT_ROADVEHS, SELF, sw_Citylink_b_ss, (extra_callback_info1 & 0x12)) {
    0x00: sw_Citylink_b; // 0x00 Vehicle in game
 }
 //--------------B end
+//--------------C
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_c, param_zoom) {
+	1: sg2_Citylink_1_c;
+	2: sg4_Citylink_1_c;
+	sg1_Citylink_1_c;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_c, param_zoom) {
+	1: sg2_Citylink_2_c;
+	2: sg4_Citylink_2_c;
+	sg1_Citylink_2_c;
+}
+switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_c, param_zoom) {
+	1: sg2_Citylink_3_c;
+	2: sg4_Citylink_3_c;
+	sg1_Citylink_3_c;
+}
+
+switch (FEAT_ROADVEHS, SELF, ss_Citylink_c_depo, position_in_consist ) {
+    1..5: ss_toldat;
+    ss_Citylink_1_c_depo;
+}
+switch (FEAT_ROADVEHS, SELF, sw_Citylink_c, position_in_consist ) {
+    1: ss_toldat;
+	2: sg_Citylink_2_c;
+	3: ss_toldat;
+	4: sg_Citylink_3_c;
+	5: ss_toldat;
+    sg_Citylink_1_c;
+}
+switch(FEAT_ROADVEHS, SELF, sw_Citylink_c_ss, (extra_callback_info1 & 0x12)) {
+   0x10..0x12: ss_Citylink_c_depo; // 0x10 Depot GUI, 0x11 Vehicle Details/Refit GUI, 0x12 Vehicle List
+   0x00: sw_Citylink_c; // 0x00 Vehicle in game
+}
+//--------------C end
 switch (FEAT_ROADVEHS, SELF, sw_Citylink_ss, cargo_subtype) {
 	0: sw_Citylink_a_ss;
 	1: sw_Citylink_b_ss;	
+	2: sw_Citylink_c_ss;	
 	CB_RESULT_NO_TEXT;
 }
 switch (FEAT_ROADVEHS, SELF, sw_Citylink_articulated, extra_callback_info1) {
@@ -272,6 +338,7 @@ switch (FEAT_ROADVEHS, SELF, sw_Citylink_length, position_in_consist) {
 switch (FEAT_ROADVEHS, SELF, sw_Citylink_livery_text, cargo_subtype) {
 	0: return string(STR_COLOUR_SCHEME_SZEGED);
 	1: return string(STR_COLOUR_SCHEME_CHEMNITZ);	
+	2: return string(STR_COLOUR_SCHEME_KARLSRUHE);	
 	CB_RESULT_NO_TEXT;
 }
 
