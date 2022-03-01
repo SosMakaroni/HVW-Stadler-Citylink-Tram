@@ -3,13 +3,8 @@
 
 # GRF name and description definitions	
 STR_GRF_NAME	:HVW Stadler Citylink Tram
-STR_GRF_DESC	:{}{LTBLUE}Stadler Citylink Tram edition{}{BLACK}Last update:{WHITE} 2022.02.27 {}{BLACK}Code and model:{GREEN}SosMakaroni{} {COPYRIGHT}2022 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Stadler Citylink Tram edition.
+STR_GRF_DESC	:{}{LTBLUE}Stadler Citylink Tram edition{}{BLACK}Last update:{WHITE} 2022.03.01 {}{BLACK}Code and model:{GREEN}SosMakaroni{} {COPYRIGHT}2022 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Stadler Citylink Tram edition.
 
-STR_PARAM_ZOOM_NAME	:Max in-zoom level
-STR_PARAM_ZOOM_DESC	:For players who want to choose the non-maximum magnification.
-STR_PARAM_ZOOM_1	:1x {SILVER} Game default{BLACK}
-STR_PARAM_ZOOM_2	:2x
-STR_PARAM_ZOOM_4	:4x {SILVER} By default{BLACK}
 STR_PARAM_BUY_NAME	:Purchase cost {RED} Not work{BLACK}
 STR_PARAM_BUY_DESC	:For players who want to choose the purchase cost.
 STR_PARAM_MAINTENANCE_NAME	:Maintenance costs {RED} Not work{BLACK}

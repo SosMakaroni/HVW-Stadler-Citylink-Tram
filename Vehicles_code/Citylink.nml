@@ -10,112 +10,51 @@ spriteset(ss_Citylink_1_a_depo, "src/CityLinka1_depo.png")		{tmpl_depo()}
 spriteset(ss_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss2_Citylink_1_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_2_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_3_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka3_2x_8bpp.png") {tmpl_1(2)}
-spriteset(ss4_Citylink_1_a, "src/CityLinka1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_2_a, "src/CityLinka2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_3_a, "src/CityLinka3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss4_Citylink_1_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_2_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_3_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka3_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_1_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka1_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_2_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka2_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_3_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka3_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_1_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_2_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_3_a, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinka3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_1_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_2_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_3_a, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinka3_4x_8bpp.png") {tmpl_1(4)}
 
-spritegroup sg1_Citylink_1_a {	loaded:  [ss_Citylink_1_a];	loading: [ss_Citylink_1_a];}
-spritegroup sg1_Citylink_2_a {	loaded:  [ss_Citylink_2_a];	loading: [ss_Citylink_2_a];}
-spritegroup sg1_Citylink_3_a {	loaded:  [ss_Citylink_3_a];	loading: [ss_Citylink_3_a];}
-spritegroup sg2_Citylink_1_a {	loaded:  [ss2_Citylink_1_a];	loading: [ss2_Citylink_1_a];}
-spritegroup sg2_Citylink_2_a {	loaded:  [ss2_Citylink_2_a];	loading: [ss2_Citylink_2_a];}
-spritegroup sg2_Citylink_3_a {	loaded:  [ss2_Citylink_3_a];	loading: [ss2_Citylink_3_a];}
-spritegroup sg4_Citylink_1_a {	loaded:  [ss4_Citylink_1_a];	loading: [ss4_Citylink_1_a];}
-spritegroup sg4_Citylink_2_a {	loaded:  [ss4_Citylink_2_a];	loading: [ss4_Citylink_2_a];}
-spritegroup sg4_Citylink_3_a {	loaded:  [ss4_Citylink_3_a];	loading: [ss4_Citylink_3_a];}
+spritegroup sg_Citylink_1_a {	loaded:  [ss_Citylink_1_a];	loading: [ss_Citylink_1_a];}
+spritegroup sg_Citylink_2_a {	loaded:  [ss_Citylink_2_a];	loading: [ss_Citylink_2_a];}
+spritegroup sg_Citylink_3_a {	loaded:  [ss_Citylink_3_a];	loading: [ss_Citylink_3_a];}
 //--------------A end
 //--------------B
 spriteset(ss_Citylink_1_b_depo, "src/CityLinkb1_depo.png")		{tmpl_depo()}
 spriteset(ss_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss2_Citylink_1_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_2_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_3_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb3_2x_8bpp.png") {tmpl_1(2)}
-spriteset(ss4_Citylink_1_b, "src/CityLinkb1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_2_b, "src/CityLinkb2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_3_b, "src/CityLinkb3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss4_Citylink_1_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_2_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_3_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb3_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_1_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb1_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_2_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb2_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_3_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb3_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_1_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_2_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_3_b, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkb3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_1_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_2_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_3_b, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkb3_4x_8bpp.png") {tmpl_1(4)}
 
-spritegroup sg1_Citylink_1_b {	loaded:  [ss_Citylink_1_b];	loading: [ss_Citylink_1_b];}
-spritegroup sg1_Citylink_2_b {	loaded:  [ss_Citylink_2_b];	loading: [ss_Citylink_2_b];}
-spritegroup sg1_Citylink_3_b {	loaded:  [ss_Citylink_3_b];	loading: [ss_Citylink_3_b];}
-spritegroup sg2_Citylink_1_b {	loaded:  [ss2_Citylink_1_b];	loading: [ss2_Citylink_1_b];}
-spritegroup sg2_Citylink_2_b {	loaded:  [ss2_Citylink_2_b];	loading: [ss2_Citylink_2_b];}
-spritegroup sg2_Citylink_3_b {	loaded:  [ss2_Citylink_3_b];	loading: [ss2_Citylink_3_b];}
-spritegroup sg4_Citylink_1_b {	loaded:  [ss4_Citylink_1_b];	loading: [ss4_Citylink_1_b];}
-spritegroup sg4_Citylink_2_b {	loaded:  [ss4_Citylink_2_b];	loading: [ss4_Citylink_2_b];}
-spritegroup sg4_Citylink_3_b {	loaded:  [ss4_Citylink_3_b];	loading: [ss4_Citylink_3_b];}
+spritegroup sg_Citylink_1_b {	loaded:  [ss_Citylink_1_b];	loading: [ss_Citylink_1_b];}
+spritegroup sg_Citylink_2_b {	loaded:  [ss_Citylink_2_b];	loading: [ss_Citylink_2_b];}
+spritegroup sg_Citylink_3_b {	loaded:  [ss_Citylink_3_b];	loading: [ss_Citylink_3_b];}
 //--------------B end
 //--------------C
 spriteset(ss_Citylink_1_c_depo, "src/CityLinkc1_depo.png")		{tmpl_depo()}
 spriteset(ss_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
 spriteset(ss_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss2_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss2_Citylink_1_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_2_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss2_Citylink_3_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc3_2x_8bpp.png") {tmpl_1(2)}
-spriteset(ss4_Citylink_1_c, "src/CityLinkc1_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_2_c, "src/CityLinkc2_1x_8bpp.png")		{tmpl_1(1)}
-spriteset(ss4_Citylink_3_c, "src/CityLinkc3_1x_8bpp.png")		{tmpl_1(1)}
-alternative_sprites(ss4_Citylink_1_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc1_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_2_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc2_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_3_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc3_2x_8bpp.png") {tmpl_1(2)}
-alternative_sprites(ss4_Citylink_1_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc1_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_2_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc2_4x_8bpp.png") {tmpl_1(4)}
-alternative_sprites(ss4_Citylink_3_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc3_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_1_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc1_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_2_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc2_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_3_c, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "src/CityLinkc3_2x_8bpp.png") {tmpl_1(2)}
+alternative_sprites(ss_Citylink_1_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc1_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_2_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc2_4x_8bpp.png") {tmpl_1(4)}
+alternative_sprites(ss_Citylink_3_c, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "src/CityLinkc3_4x_8bpp.png") {tmpl_1(4)}
 
-spritegroup sg1_Citylink_1_c {	loaded:  [ss_Citylink_1_c];	loading: [ss_Citylink_1_c];}
-spritegroup sg1_Citylink_2_c {	loaded:  [ss_Citylink_2_c];	loading: [ss_Citylink_2_c];}
-spritegroup sg1_Citylink_3_c {	loaded:  [ss_Citylink_3_c];	loading: [ss_Citylink_3_c];}
-spritegroup sg2_Citylink_1_c {	loaded:  [ss2_Citylink_1_c];	loading: [ss2_Citylink_1_c];}
-spritegroup sg2_Citylink_2_c {	loaded:  [ss2_Citylink_2_c];	loading: [ss2_Citylink_2_c];}
-spritegroup sg2_Citylink_3_c {	loaded:  [ss2_Citylink_3_c];	loading: [ss2_Citylink_3_c];}
-spritegroup sg4_Citylink_1_c {	loaded:  [ss4_Citylink_1_c];	loading: [ss4_Citylink_1_c];}
-spritegroup sg4_Citylink_2_c {	loaded:  [ss4_Citylink_2_c];	loading: [ss4_Citylink_2_c];}
-spritegroup sg4_Citylink_3_c {	loaded:  [ss4_Citylink_3_c];	loading: [ss4_Citylink_3_c];}
+spritegroup sg_Citylink_1_c {	loaded:  [ss_Citylink_1_c];	loading: [ss_Citylink_1_c];}
+spritegroup sg_Citylink_2_c {	loaded:  [ss_Citylink_2_c];	loading: [ss_Citylink_2_c];}
+spritegroup sg_Citylink_3_c {	loaded:  [ss_Citylink_3_c];	loading: [ss_Citylink_3_c];}
 //--------------C end
 
 //--------------A
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_a, param_zoom) {
-	1: sg2_Citylink_1_a;
-	2: sg4_Citylink_1_a;
-	sg1_Citylink_1_a;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_a, param_zoom) {
-	1: sg2_Citylink_2_a;
-	2: sg4_Citylink_2_a;
-	sg1_Citylink_2_a;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_a, param_zoom) {
-	1: sg2_Citylink_3_a;
-	2: sg4_Citylink_3_a;
-	sg1_Citylink_3_a;
-}
-
 switch (FEAT_ROADVEHS, SELF, ss_Citylink_a_depo, position_in_consist ) {
     1..5: ss_toldat;
     ss_Citylink_1_a_depo;
@@ -134,22 +73,6 @@ switch(FEAT_ROADVEHS, SELF, sw_Citylink_a_ss, (extra_callback_info1 & 0x12)) {
 }
 //--------------A end
 //--------------B
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_b, param_zoom) {
-	1: sg2_Citylink_1_b;
-	2: sg4_Citylink_1_b;
-	sg1_Citylink_1_b;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_b, param_zoom) {
-	1: sg2_Citylink_2_b;
-	2: sg4_Citylink_2_b;
-	sg1_Citylink_2_b;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_b, param_zoom) {
-	1: sg2_Citylink_3_b;
-	2: sg4_Citylink_3_b;
-	sg1_Citylink_3_b;
-}
-
 switch (FEAT_ROADVEHS, SELF, ss_Citylink_b_depo, position_in_consist ) {
     1..5: ss_toldat;
     ss_Citylink_1_b_depo;
@@ -168,22 +91,6 @@ switch(FEAT_ROADVEHS, SELF, sw_Citylink_b_ss, (extra_callback_info1 & 0x12)) {
 }
 //--------------B end
 //--------------C
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_1_c, param_zoom) {
-	1: sg2_Citylink_1_c;
-	2: sg4_Citylink_1_c;
-	sg1_Citylink_1_c;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_2_c, param_zoom) {
-	1: sg2_Citylink_2_c;
-	2: sg4_Citylink_2_c;
-	sg1_Citylink_2_c;
-}
-switch(FEAT_ROADVEHS, SELF, sg_Citylink_3_c, param_zoom) {
-	1: sg2_Citylink_3_c;
-	2: sg4_Citylink_3_c;
-	sg1_Citylink_3_c;
-}
-
 switch (FEAT_ROADVEHS, SELF, ss_Citylink_c_depo, position_in_consist ) {
     1..5: ss_toldat;
     ss_Citylink_1_c_depo;
@@ -266,7 +173,7 @@ item(FEAT_ROADVEHS, item_Citylink) {
 		length:                  		sw_Citylink_length;
 		cargo_subtype_text: 			sw_Citylink_livery_text;
 		cargo_capacity: 				sw_Citylink_capacity;
-		purchase_cargo_capacity:		return 216 / 3;
+		purchase_cargo_capacity:		return 36;
 		additional_text: 				string(STR_Citylink_ADAT);
     }
 }
